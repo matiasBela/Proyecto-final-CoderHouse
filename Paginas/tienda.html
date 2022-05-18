@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Hojas de estilos para bootstrap -->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="/estilos.css">
+    <!-- Sass -->
+    <link rel="stylesheet" href="/scss/main.scss">
+    <!-- iconos -->
+    <link rel="stylesheet" href="/font.css">
+    <title>Distribuidora</title>
+</head>
+<body>
+  <body>
+    <!-- Barra de navegacion -->
+<header class="backgroundHeader">
+  <b>
+  <nav class="navbar navbar-expand-lg navbar-light bg-gradient">
+  <div class="container-fluid">
+    <a href="/index.html"> <img src="/Img/Logotipo_Distribuidora.jfif" alt="Distribuidora Mayorista venta compra productos alimenticios emprendimiento local precios"></a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/Paginas/tienda.html">Tienda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="/Paginas/Nosotros.html">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="/Paginas/contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="/Paginas/ayuda.html">Ayuda</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+        <button class="btn btn-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+</b>
+  </header>
+ 
+  
+
+<div class="backgroundBody mt-3" >
+  <a href="./carrito.html">
+    <button id="boton-carrito" href="./carrito.html"><img src="/Img/carrito para carrito.png" width="50px" height="50px"><i class="fa-solid fa-cart-shopping text-white fa-2x carrito btn btn-success p-3 rounded" data-bs-toggle="offcanvas"
+     data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span class="fs-4 m-2"
+         id="contadorCarrito"></span></i></button>
+       </a>
+  <div id="contenedor">
+  <br>
+  <div id="container">
+    <div class="row" id="productos">
+      <!-- <div class="col mb-3 mt-3 prod">
+        <span class="clearfix"></span>
+        <div data-aos="fade-up" class="card mx-auto">
+          <img src="/Img/Arroz-Amarillo-Gallo-Oro-1kg-1-13401.jpg" class="card-img-top" alt="Arroz producto">
+          <div class="card-body">
+            <h5 class="card-title">Arroz amarillo gallo (Pack de 20)</h5>
+            <p class="card-text">$100 c/u</p>
+            <a href="l" class="btn btn-success stretched-link">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-3 mt-3 prod">
+        <div data-aos="fade-up" class="card mx-auto">
+          <img src="/Img/1507-1.jpg" class="card-img-top" alt="Aceite">
+          <div class="card-body">
+            <h5 class="card-title">Aceite de oliva cocinero (Pack de 12)
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                Oferta
+              </span>
+            </h5>
+            <p class="card-text">$300 c/u</p>
+            <a href="" class="btn btn-success stretched-link">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-3 mt-3 prod">
+        <div data-aos="fade-up" class="card mx-auto">
+          <img src="/Img/Fideos-spaghetti-Matarazzo-500-Gr-1-819.jpg" class="card-img-top" alt="Fideos Pastas">
+          <div class="card-body">
+            <h5 class="card-title">Fideos matarazzo (caja de 30)</h5>
+            <p class="card-text">$90 c/u</p>
+            <a href="" class="btn btn-success stretched-link">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-3 mt-3 prod">
+        <div data-aos="fade-up" class="card mx-auto">
+          <img src="/Img/Coca-cola-Sabor-Original-1-5-Lt-2-245092.jpg" class="card-img-top" alt="Gaseosa">
+          <div class="card-body">
+            <h5 class="card-title">Gaseosa Coca Cola 1,5Lt (Pack de 24)</h5>
+            <p class="card-text">$115 c/u</p>
+            <a href="" class="btn btn-success stretched-link">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div data-aos="fade-up" class="row">
+      <div class="col mb-3 mt-3 prod">
+        <span class="clearfix"></span>
+        <div data-aos="fade-up" class="card mx-auto" style="width: 250px; height: 420px;">
+          <img src="/Img/000000000000100164048ALMACEN-Azucar-Ledesma-x-1-kg1.jpg" class="card-img-top" alt="Azucar Caña">
+          <div class="card-body">
+            <h5 class="card-title">Azucar Ledesma (Caja de 40)</h5>
+            <p class="card-text">$60 c/u</p>
+            <a href="" class="btn btn-success stretched-link">Ver más</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col mb-3 mt-3 prod">
+        <div data-aos="fade-up" class="card mx-auto" style="width: 250px; height: 420px;">
+          <img src="/Img/Leche-Parcialmente-Descremada-Liviana-La-Serenisima-Botella-Larga-Vida-1l-1-479729.jpg" class="" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Leche La Serenisima (Pack de 20)</h5>
+            <p class="card-text">$60 c/u</p>
+            <a href="" class="btn btn-success stretched-link">Ver más</a>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+   <!-- <div class="modal-content">
+    <div class="modal-carrito">
+      <h3>Carrito</h3>
+      <button id="carritoCerrar"><i class="fas fa-times.circle"></i></button>
+      <div id="carrito-contenedor">
+         <div id="productosEnCarrito">
+          <p>Arroz</p>
+          <p>Precio: 1200</p>
+          <button class="boton-eliminar"><i class="fas fa-trash-alt"></i></button>
+        </div>
+      </div>
+      <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+      <div id="terminar" style="display: flex; justify-content: flex-end;"></div>
+    </div> -->
+     
+  </div> 
+
+
+
+
+
+
+
+<br>
+ <footer class="footer bg-light" > 
+  
+  
+    <b>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        
+        <div class="container-fluid"  >
+        
+          <a class="navbar-brand" href="/index.html">Distribuidora</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/Paginas/contacto.html"></a> 
+              </li>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/Paginas/Nosotros.html"></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/Paginas/tienda.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-current="page">
+                  Idioma
+                 </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#"></a></li>
+      <li><a class="dropdown-item" href="#">English</a></li>
+      <li><a class="dropdown-item" href="#">中国人</a></li>
+      <li><a class="dropdown-item" href="#">Português</a></li>
+      <li><a class="dropdown-item" href="#">Deutsch</a></li>
+      <li><a class="dropdown-item" href="#">Polski</a></li>
+      <li><a class="dropdown-item" href="#">عرب</a></li>
+                 
+                </ul>
+              </li>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/Paginas/ayuda.html" style="margin-right: 445px;"></a> 
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    </b>
+    <ul class="nav justify-content-end">
+
+       <li class="nav-item">
+        <a class="nav-link" href="/index.html">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Paginas/Nosotros.html">Nosotros</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Paginas/ayuda.html">Ayuda</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Paginas/contacto.html">Contacto</a>
+      </li>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/Paginas/tienda.html">Tienda</a>
+    </li>
+    </ul>
+    <div class="social-bar">
+      <a href="https://www.instagram.com/" class="icon icon-instagram" target="_blank"></a> 
+      <a href="https://twitter.com/?lang=es" class="icon icon-twitter" target="_blank"></a>
+      <a href="https://www.youtube.com/" class="icon icon-youtube" target="_blank"></a>
+      <a href="https://www.facebook.com/" class="icon icon-facebook" target="_blank"></a>
+    </div>
+        
+    <hr>
+    
+    
+    <!-- <img src="/Img/Logotipo_Distribuidora.jfif" alt="Distribuidora Mayorista venta compra productos alimenticios emprendimiento local precios" class="ImgLogo"> -->
+    
+    <div class="container-fluid bg ligth text-center p-3">
+      <p class="small">&copy;Todos los derechos reservados :: Distribuidora ::Buenos Aires argentina :: 2022 </p>
+    </div>
+<!--<a href="https://www.facebook.com/"><img src="/Img/facebooksi.jpg" alt="" class="ImgFace" style="margin: 0px;"></a>
+<a href="https://www.instagram.com/"><img src="/Img/instasi.jpg" alt="" class="ImgFace" style="margin-left: 65px;"></a>
+ <a href="https://twitter.com/?lang=es"><img src="/Img/twitter.jpg" alt="" class="imgtwitter"></a>  -->
+
+
+
+  <!-- <script src="/js mio/"></script> -->
+  <!-- <script src="/app.js"></script> -->
+  <!--  -->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="/app.js"></script>
+  <script src="/carrito.js"></script>
+  <script src="/js/bootstrap.js"></script>
+  
+</footer>
+</body>
+</html>

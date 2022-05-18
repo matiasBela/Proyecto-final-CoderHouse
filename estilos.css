@@ -1,0 +1,131 @@
+/* index */
+.backgroundHeader {background-color: #ff8222db;}
+html{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+.backgroundBody {background-color: #e5e5f7;
+    opacity: 1;
+    background-image:  linear-gradient(30deg, #ff8222 12%, transparent 12.5%, transparent 87%, #838383 87.5%, #838383), linear-gradient(150deg, #ff8222 12%, transparent 12.5%, transparent 87%, #838383 87.5%, #838383), linear-gradient(30deg, #838383 12%, transparent 12.5%, transparent 87%, #ff8222 87.5%, #838383), linear-gradient(150deg, #838383 12%, transparent 12.5%, transparent 87%, #838383 87.5%, #ff8222), linear-gradient(60deg, #83838377 25%, transparent 25.5%, transparent 75%, #83838377 75%, #83838377), linear-gradient(60deg, #83838377 25%, transparent 25.5%, transparent 75%, #83838377 75%, #83838377);
+    background-size: 80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;}
+
+   
+
+
+    
+    
+.bloqueTextoNosotros{
+    font-size: x-large;
+    width: 700px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ImgMapa{
+    width: 850px;
+    height: 400px;
+    margin-left: 150px;
+    margin-right: auto;
+}
+.Veniaconocernos{
+    font-size: xx-large;
+    width: 700px;
+    height: 30px;
+}
+/* .footer {  */
+    
+   .social-bar{
+       position: fixed;
+       right: 0;
+       top: 35%;
+       font-size: 1.5rem;
+       display: flex;
+       flex-direction: column;
+       align-items: flex-end;
+       z-index: 100;
+   }
+ .icon {
+     color: white;
+     text-decoration: none;
+     padding: 0.7rem;
+     display: flex;
+     transition: all 0.5%;
+ }
+ .icon-facebook{
+     background: #2e406e;
+     border-radius: 0 0 0 1rem;
+ }
+ .icon-twitter{
+     background: #339dc5;
+ }
+ .icon-youtube{
+     background: #e83028;
+ }
+ .icon-instagram{
+     background: #3f60a5;
+     border-radius: 1rem 0 0 0;
+ }
+.icon:hover{
+    padding-right:  3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+    color: black;  }
+    
+/* Pagina Nosotros */
+
+
+
+.imgCamiones{
+    width: 350px;
+    height: 350px;
+    margin-bottom:150px;
+    margin-left: 15px;
+}
+.imgGondolas{
+    width: 350px;
+    height: 350px;
+    margin-bottom: 150px;
+    margin-left: 390px;
+}
+
+
+
+/* Pagina Ayuda */
+
+.contactanos{
+    font-size: xx-large;
+    width: 700px;
+    height: 30px;
+    margin-left: 450px;
+    margin-right: auto;
+}
+
+.imgEnlacesNosotros{
+    width: 90px;
+    height: 90px;
+}
+
+/* Pagina contacto */
+
+.TextoContacto{
+    font-size: x-large;
+    margin-left: 175px;
+}
+.TextoUbicacion{
+    font-size: xx-large;
+    margin-left: 340px;
+}
+.ImgMapa2{
+    width: 850px;
+    height: 400px;
+    margin-left: 250px;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+.TextoRedes{
+    font-size: xx-large;
+    margin-left: 15px;
+}
+.cardImg{
+    width: 250px;
+    height: 300px;
+}
+
